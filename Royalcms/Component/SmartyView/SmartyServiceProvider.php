@@ -92,7 +92,7 @@ class SmartyServiceProvider extends ServiceProvider
      */
     public function registerViewFinder()
     {
-        $this->royalcms->bindShared('view.finder', function($royalcms)
+        $this->royalcms->singleton('view.finder', function($royalcms)
         {
             $path = $royalcms['config']['smarty-view::smarty.template_path'];
     
