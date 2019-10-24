@@ -26,13 +26,6 @@
         "branch-alias": {
             "dev-master": "5.6-dev"
         },
-        "royalcms": {
-            "providers": [
-                "Royalcms\\Component\\SmartyView\\SmartyServiceProvider"
-            ],
-            "aliases": {
-            }
-        }
     },
     "minimum-stability": "dev"
 }
